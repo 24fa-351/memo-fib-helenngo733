@@ -24,7 +24,7 @@ unsigned long int fib_iterative_wrapper(unsigned long int fib_nth) {
    }
    
    unsigned long int prev_num = 0, current_num = 1, temp_next_num;
-   for (unsigned long int i = 3; i <= fib_nth; i++) {
+   for (unsigned long int ix = 3; ix <= fib_nth; ix++) {
       temp_next_num = prev_num + current_num;
       prev_num = current_num;
       current_num = temp_next_num;
